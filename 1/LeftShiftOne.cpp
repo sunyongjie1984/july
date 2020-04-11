@@ -11,12 +11,3 @@ void LeftShiftOne( char* s, int n )
     }
     s[ n - 1 ] = t;
 }
-
-int main()
-{
-    char array[ 12 ] = "hello world";
-    std::cout << array << std::endl;
-    LeftShiftOne( array, sizeof( array ) );
-    std::cout << array << std::endl;
-    return 0;
-}
